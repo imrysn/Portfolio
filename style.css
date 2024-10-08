@@ -640,9 +640,9 @@ span {
     }
     .navbar {
         position: absolute;
-        top: 100%;
+        top: 63%;
         right: 0;
-        width: 50%;
+        width: 25%;
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
