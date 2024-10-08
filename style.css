@@ -681,7 +681,7 @@ span {
     .skills-container {
         grid-template-columns: repeat(1,1fr);
     }
-    .home h2 ,.skills h2,.education h2,.projects h2,.contact h2 {
+    .home h2,.skills h2,.education h2,.projects h2,.contact h2 {
         font-size: 6rem;
     }
     .project-item h2{
