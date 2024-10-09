@@ -592,7 +592,7 @@ span {
     html {
         font-size: 55%;
     }
-    .skills-container{
+    .container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
@@ -678,7 +678,7 @@ span {
     .skills h2{
         margin-bottom: 3rem;
     }
-    .skills-container {
+    .container {
         grid-template-columns: repeat(1,1fr);
     }
     .home h2,.skills h2,.education h2,.projects h2,.contact h2 {
