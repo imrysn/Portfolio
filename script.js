@@ -24,5 +24,5 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 function clearField() {
-    document.getElementById('input-group','input-group-2').value='';
+    document.getElementById('input-group').value='';
 }
