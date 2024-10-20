@@ -23,6 +23,3 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
-function clearField() {
-    document.getElementById('input-group').value='';
-}
