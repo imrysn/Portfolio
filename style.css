@@ -10,7 +10,7 @@
 }
 :root {
     --bg-color: #080808;
-    --second-bg-color: #131313;
+    --second-bg-color: #1d1c1c;
     --text-color: white;
     --main-color: #c01919;
 }
@@ -256,7 +256,7 @@ span {
     }
 }
 
-/* Educ starts here */
+/* Education starts here */
 
 .heading {
     font-size: 8rem;
@@ -271,7 +271,7 @@ span {
     margin-bottom: 5rem;
 }
 .timeline-items {
-    max-width: 1200px;
+    max-width: auto;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -370,14 +370,22 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-gap: 1rem;
+    grid-gap: 2.5rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
 }
 .skill-box {
-    padding: 1rem;
+    min-height: 450px;
+    border-radius: 2rem;
+    padding: 8rem;
     color: var(--main-color);
     cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.skill-box:hover {
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
 }
 .skill-title{
     display: flex;
@@ -453,12 +461,12 @@ span {
     gap: 3rem;
 }
 .project-item {
+    margin: 0 2 rem;
+    padding: 30px 60px;
     min-height: 450px;
     max-width: 460px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 2rem;
-    margin: 0 2 rem;
-    padding: 30px 60px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -643,12 +651,10 @@ span {
         top: 63%;
         right: 0;
         width: 50%;
-        padding: 1rem 3%;
-        background: rgba(0, 0, 0, 0.8);
+        height: 100vh;
+        padding: 4rem;
+        background: rgba(0, 0, 0, 0.596);
         backdrop-filter: blur(20px);
-        border-bottom-left-radius: 2rem;
-        border-left: 2px solid var(--main-color);
-        border-bottom: 2px solid var(--main-color);
         display: none;
     }
     .navbar.active{
@@ -659,7 +665,7 @@ span {
     }
     .home {
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 5rem 20rem;
     }
     .home-content h3{
         font-size: 2rem;
@@ -681,10 +687,14 @@ span {
     .container {
         grid-template-columns: repeat(1,1fr);
     }
-    .home h2,.skills h2,.education h2,.projects h2,.contact h2 {
+    .home h2 ,.skills h2,.education h2,.projects h2,.contact h2 {
         font-size: 6rem;
     }
     .project-item h2{
         font-size: 4rem;
+    }
+    .contact form textarea,
+    .contact form .input-box input{
+        width: 80%;
     }
 }
