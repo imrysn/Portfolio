@@ -739,8 +739,8 @@ gap: 15rem;
 }
 
 @media(max-width:895px) {
-    .header{
-        width: 55%;
+    body, html {
+        overflow-x: hidden;
     }
     #menu-icon {
         display: block;
