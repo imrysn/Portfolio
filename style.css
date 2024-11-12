@@ -338,7 +338,7 @@ gap: 15rem;
     transform: translateY(0) !important; 
 }
 .card[for='c1'] {
-    background-image: url(./assets/me.JPEG);
+    background-image: url(./assets/me.JPG);
 }
 .card[for='c2'] {
     background-image: url(./assets/akatsuki1.png);
